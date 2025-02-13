@@ -53,11 +53,11 @@ body {
 			h1{
 				font-family: 'Sacramento', cursive;
 				color: #FE7696;
-				font-size: 34px;
+				font-size: 15px;
 			}
 
 			.letter{
-				width: 600px;
+				width: 400px;
 				height: 400px;
 				display: inline-block;
 			}
