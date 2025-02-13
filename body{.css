@@ -58,7 +58,7 @@ body {
 
 			.letter{
 				width: 430px;
-				height: 10px;
+				height: -10px;
 				display: inline-block;
 			}
 
