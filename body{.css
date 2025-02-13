@@ -228,11 +228,12 @@ body{
     height: 260px;
     position: absolute;
     right: 0;
-    top: 280px; /* Adjusted to place it underneath Rose 2 */
+    top: 250px; /* Adjusted from 280px to 250px to move it up */
     display: inline-block;
     animation: yidon 5s infinite;
     transform: translateY(40%);
 }
+
 
 .petal_3 {
     width: 50px;
