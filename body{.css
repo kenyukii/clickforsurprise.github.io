@@ -1,10 +1,7 @@
-body {
-    background: #fadede;
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-
-/* Envelope Closed */
+body{
+				background: #fadede;
+			}
+            /* Envelope Closed */
 .envelope-container {
     position: relative;
     width: 400px;
@@ -38,12 +35,9 @@ body {
     display: none;
 }
 
-/* Your existing styles (copy your CSS here) */
-
-
 			.container{
 				width: 800px;
-				height: 400px;
+				height: 10px;
 				position: absolute;
 				top: 50%;
 				left: 50%;
@@ -53,12 +47,12 @@ body {
 			h1{
 				font-family: 'Sacramento', cursive;
 				color: #FE7696;
-				font-size: 10px;
+				font-size: 20px;
 			}
 
 			.letter{
-				width: 430px;
-				height: -10px;
+				width: 600px;
+				height: 400px;
 				display: inline-block;
 			}
 
@@ -360,7 +354,6 @@ body {
     left: 140px;
     transform: rotate(120deg);
 }
-
 			@keyframes yidon{
 				50%{
 					transform: translateY(35%);
