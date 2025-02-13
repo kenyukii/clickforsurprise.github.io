@@ -1,64 +1,92 @@
-<div class="envelope">
-    <div class="flap"></div>
-    <div class="body"></div>
-    <div class="message">
-        <div class="container">
-            <link rel="stylesheet" href="body{.css">
-            <div class="letter">
-                <h1>happy valentines day lovey ko wla mn koy kwarta pang palit flowers <br>
-                    so kani lang sa AHAHAHA i hope that you appreciate this digital flowers <br>
-                    From the moment we first talked in 2021, I knew you were special. Even though you ghosted me for years AHAHAHA, 
-                    <br>
-                    I never forgot about you. Then, in September 2024, you came back into my life like a beautiful sunrise, and now, I can't imagine my days without you.
-                    <br>
-                    You are kind, beautiful, and your smile and eyes make my heart melt.<br>
-                    Just like your name, you are as lovely as the dawn.<br>
-                    This flower is a small reminder of how much I adore you.<br>
-                    Happy Valentine’s Day, my love. <br>
-                    I’m grateful that you came into my life. I’m so lucky to have you.</h1>
-            </div>
-            <div class="rose">
-                <div class="flower">
-                    <div class="petal"></div>
-                    <div class="petal"></div>
-                    <div class="petal"></div>
-                    <div class="petal"></div>
-                    <div class="petal"></div>
-                </div>
-                <div class="leaf">
-                    <div class="stem"></div>
-                    <div class="leafs"></div>
-                    <div class="leafs"></div>
-                </div>
-                <div class="rose_2">
-                    <div class="flower_2">
-                        <div class="petal_2"></div>
-                        <div class="petal_2"></div>
-                        <div class="petal_2"></div>
-                        <div class="petal_2"></div>
-                        <div class="petal_2"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Envelope</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Separate CSS file -->
+</head>
+<body>
+
+<div class="envelope-container">
+    <div class="envelope-closed" onclick="openEnvelope()">
+        <p>Happy Valentines Lovey ❤️ Click here to open</p>
+    </div>
+
+    <div class="envelope-content hidden">
+        <!-- Your original content here -->
+        <div class="envelope">
+            <div class="flap"></div>
+            <div class="body"></div>
+            <div class="message">
+                <div class="container">
+                    <div class="letter">
+                        <h1>happy valentines day lovey ko wla mn koy kwarta pang palit flowers <br>
+                            so kani lang sa AHAHAHA i hope that you appreciate this digital flowers <br>
+                            From the moment we first talked in 2021, I knew you were special. Even though you ghosted me for years AHAHAHA, 
+                            <br>
+                            I never forgot about you. Then, in September 2024, you came back into my life like a beautiful sunrise, and now, I can't imagine my days without you.
+                            <br>
+                            You are kind, beautiful, and your smile and eyes make my heart melt.<br>
+                            Just like your name, you are as lovely as the dawn.<br>
+                            This flower is a small reminder of how much I adore you.<br>
+                            Happy Valentine’s Day, my love. <br>
+                            I’m grateful that you came into my life. I’m so lucky to have you.</h1>
                     </div>
-                    <div class="leaf_2">
-                        <div class="stem_2"></div>
-                        <div class="leafs_2"></div>
-                        <div class="leafs_2"></div>
-                    </div>
-                    <div class="rose_3">
-                        <div class="flower_3">
-                            <div class="petal_3"></div>
-                            <div class="peta_l3"></div>
-                            <div class="petal_3"></div>
-                            <div class="petal_3"></div>
-                            <div class="petal_3"></div>
+                    <div class="rose">
+                        <div class="flower">
+                            <div class="petal"></div>
+                            <div class="petal"></div>
+                            <div class="petal"></div>
+                            <div class="petal"></div>
+                            <div class="petal"></div>
                         </div>
-                        <div class="leaf_3">
-                            <div class="stem_3"></div>
-                            <div class="leafs_3"></div>
-                            <div class="leafs_3"></div>
+                        <div class="leaf">
+                            <div class="stem"></div>
+                            <div class="leafs"></div>
+                            <div class="leafs"></div>
+                        </div>
+                        <div class="rose_2">
+                            <div class="flower_2">
+                                <div class="petal_2"></div>
+                                <div class="petal_2"></div>
+                                <div class="petal_2"></div>
+                                <div class="petal_2"></div>
+                                <div class="petal_2"></div>
+                            </div>
+                            <div class="leaf_2">
+                                <div class="stem_2"></div>
+                                <div class="leafs_2"></div>
+                                <div class="leafs_2"></div>
+                            </div>
+                            <div class="rose_3">
+                                <div class="flower_3">
+                                    <div class="petal_3"></div>
+                                    <div class="peta_l3"></div>
+                                    <div class="petal_3"></div>
+                                    <div class="petal_3"></div>
+                                    <div class="petal_3"></div>
+                                </div>
+                                <div class="leaf_3">
+                                    <div class="stem_3"></div>
+                                    <div class="leafs_3"></div>
+                                    <div class="leafs_3"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>  
 </div>
+
+<script>
+    function openEnvelope() {
+        document.querySelector(".envelope-closed").style.display = "none";
+        document.querySelector(".envelope-content").classList.remove("hidden");
+    }
+</script>
+
+</body>
+</html>
