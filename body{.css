@@ -1,6 +1,45 @@
-body{
-				background: #fadede;
-			}
+body {
+    background: #fadede;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Envelope Closed */
+.envelope-container {
+    position: relative;
+    width: 300px;
+    margin: 100px auto;
+}
+
+.envelope-closed {
+    background: #ff4d6d;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.envelope-closed:hover {
+    background: #e63950;
+}
+
+/* Hidden Content */
+.envelope-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Your existing styles (copy your CSS here) */
+
 
 			.container{
 				width: 800px;
@@ -321,6 +360,7 @@ body{
     left: 140px;
     transform: rotate(120deg);
 }
+
 			@keyframes yidon{
 				50%{
 					transform: translateY(35%);
