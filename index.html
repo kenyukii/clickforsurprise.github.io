@@ -1,144 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentine's Surprise 💖</title>
-    <style>
-        /* General Styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-
-        body {
-            background-color: #ffe6f2; /* Light pink background */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            flex-direction: column;
-        }
-
-        /* Envelope (Clickable) */
-        .envelope {
-            background-color: #ff1493; /* Fuchsia pink */
-            width: 300px;
-            height: 200px;
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            font-size: 18px;
-            font-weight: bold;
-            cursor: pointer;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-            transition: 0.5s;
-        }
-
-        .envelope:hover {
-            transform: scale(1.1);
-        }
-
-        /* Letter + Flowers (Hidden by Default) */
-        .container {
-            display: none;
-            opacity: 0;
-            transition: opacity 1s ease-in-out;
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .letter {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-            max-width: 400px;
-            text-align: center;
-            margin: auto;
-        }
-
-        .letter h1 {
-            font-size: 16px;
-            color: #333;
-        }
-
-        /* Flower */
-        .rose {
-            width: 100px;
-            height: 100px;
-            margin: 20px auto;
-        }
-
-        .petal {
-            width: 50px;
-            height: 50px;
-            background: red;
-            border-radius: 50%;
-            position: absolute;
-            left: 25px;
-            top: 0;
-        }
-
-        .stem {
-            width: 10px;
-            height: 80px;
-            background: green;
-            margin: auto;
-        }
-
-    </style>
-</head>
-<body>
-
-    <!-- Envelope (Click to Reveal) -->
-    <div class="envelope" onclick="openSurprise()">
-        Click here to open your surprise 💌
-    </div>
-
-    <!-- Hidden Surprise -->
-    <div class="container" id="surprise">
-        <div class="letter">
-            <h1>
-                Happy Valentine's Day, Lovey Ko! ❤️<br><br>
-                Wala man koy kwarta pang palit flowers AHAHAHA,<br>
-                so kani lang sa! I hope you appreciate this digital flower. 🌹<br><br>
-                From the moment we first talked in 2021, I knew you were special.<br>
-                Even though you ghosted me for years AHAHAHA,<br>
-                I never forgot about you. Then, in September 2024,<br>
-                you came back into my life like a beautiful sunrise,<br>
-                and now, I can't imagine my days without you.<br><br>
-                You are kind, beautiful, and your smile makes my heart melt.<br>
-                Just like your name, you are as lovely as the dawn.<br>
-                This flower is a small reminder of how much I adore you. 💕<br><br>
-                I’m grateful that you came into my life.<br>
-                I’m so lucky to have you! 🌹
-            </h1>
-        </div>
-
-        <!-- Simple Flower -->
-        <div class="rose">
-            <div class="petal"></div>
-            <div class="stem"></div>
+<div class="envelope">
+    <div class="flap"></div>
+    <div class="body"></div>
+    <div class="message">
+        <div class="container">
+            <link rel="stylesheet" href="body{.css">
+            <div class="letter">
+                <h1>happy valentines day lovey ko wla mn koy kwarta pang palit flowers <br>
+                    so kani lang sa AHAHAHA i hope that you appreciate this digital flowers <br>
+                    From the moment we first talked in 2021, I knew you were special. Even though you ghosted me for years AHAHAHA, 
+                    <br>
+                    I never forgot about you. Then, in September 2024, you came back into my life like a beautiful sunrise, and now, I can't imagine my days without you.
+                    <br>
+                    You are kind, beautiful, and your smile and eyes make my heart melt.<br>
+                    Just like your name, you are as lovely as the dawn.<br>
+                    This flower is a small reminder of how much I adore you.<br>
+                    Happy Valentine’s Day, my love. <br>
+                    I’m grateful that you came into my life. I’m so lucky to have you.</h1>
+            </div>
+            <div class="rose">
+                <div class="flower">
+                    <div class="petal"></div>
+                    <div class="petal"></div>
+                    <div class="petal"></div>
+                    <div class="petal"></div>
+                    <div class="petal"></div>
+                </div>
+                <div class="leaf">
+                    <div class="stem"></div>
+                    <div class="leafs"></div>
+                    <div class="leafs"></div>
+                </div>
+                <div class="rose_2">
+                    <div class="flower_2">
+                        <div class="petal_2"></div>
+                        <div class="petal_2"></div>
+                        <div class="petal_2"></div>
+                        <div class="petal_2"></div>
+                        <div class="petal_2"></div>
+                    </div>
+                    <div class="leaf_2">
+                        <div class="stem_2"></div>
+                        <div class="leafs_2"></div>
+                        <div class="leafs_2"></div>
+                    </div>
+                    <div class="rose_3">
+                        <div class="flower_3">
+                            <div class="petal_3"></div>
+                            <div class="peta_l3"></div>
+                            <div class="petal_3"></div>
+                            <div class="petal_3"></div>
+                            <div class="petal_3"></div>
+                        </div>
+                        <div class="leaf_3">
+                            <div class="stem_3"></div>
+                            <div class="leafs_3"></div>
+                            <div class="leafs_3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-    <script>
-        function openSurprise() {
-            document.querySelector('.envelope').style.display = 'none';
-            const surprise = document.getElementById('surprise');
-            surprise.style.display = 'block';
-            setTimeout(() => {
-                surprise.style.opacity = '1';
-            }, 100);
-        }
-    </script>
-
-</body>
-</html>
+</div>
