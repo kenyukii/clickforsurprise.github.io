@@ -7,7 +7,7 @@ body {
 /* Envelope Closed */
 .envelope-container {
     position: relative;
-    width: 300px;
+    width: 430px;
     margin: 100px auto;
 }
 
@@ -43,7 +43,7 @@ body {
 
 			.container{
 				width: 800px;
-				height: 600px;
+				height: 800px;
 				position: absolute;
 				top: 50%;
 				left: 50%;
@@ -53,11 +53,11 @@ body {
 			h1{
 				font-family: 'Sacramento', cursive;
 				color: #FE7696;
-				font-size: 25px;
+				font-size: 10px;
 			}
 
 			.letter{
-				width: 400px;
+				width: 430px;
 				height: 10px;
 				display: inline-block;
 			}
