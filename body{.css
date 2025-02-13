@@ -321,8 +321,6 @@ body{
     left: 140px;
     transform: rotate(120deg);
 }
-
-
 			@keyframes yidon{
 				50%{
 					transform: translateY(35%);
